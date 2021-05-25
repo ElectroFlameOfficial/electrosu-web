@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>FAQ - ElectrOsu!web</title>
+        <link rel="stylesheet" href="style/picnic.min.css">
+        <link rel="stylesheet" type="text/css" href="style/main.css">
+        <!-- <link href="//fonts.googleapis.com/css?family=Exo+2:400,600italic" rel="stylesheet" type="text/css"> -->
+        <link rel="stylesheet" type="text/css" href="style/font.css">
+        <link rel="icon" href="favicon.png">
+    </head>
+
+    <body>
+        <nav id="main-nav">
+            <div class="nav-link">
+                <a href="index.html" class="brand">ElectrOsu!web</a>
+                <a href="new.html" class="pseudo button">New</a>
+                <a href="hot.html" class="pseudo button">Hot</a>
+                <a href="genre.html" class="pseudo button">Genre</a>
+            </div>
+            <div class="nav-search">
+                <form action="search.html">
+                    <input type="text" name="q" placeholder="Beatmap id (bancho)"/>
+                    <input type="image" class="search-button" src="research.svg">
+                </form>
+            </div>
+            <div class="nav-tool">
+                <a href="local.html" class="pseudo button">Saved</a>
+                <a href="faq.html" class="pseudo button active">FAQ</a>
+                <a href="settings.html" class="pseudo button">Settings</a>
+                <a onclick="document.documentElement.requestFullscreen();" class="pseudo button">Fullscreen mode</a>
+            </div>
+        </nav>
+
+        <div class="main-page" id="main-page">
+            <div class="main-content">
+                <div class="faqentry">
+        			<h2>The cursor movement seems to be a bit delayed?</h2>
+        			It may be that the browser itself occupies a large amount of computing resources and causes the freeze, or it may be that the browser has reduced the frequency of event sending due to some peculiar mechanism. It is recommended to avoid high CPU usage, close anti-virus software/computer housekeeper like 360, try to close other tabs of the browser and restart the browser. Please make sure you are using a mainstream modern browser (such as Firefox, Chrome). If it is still stuck, please reach out to me directly on <a href="https://discord.gg/K5bwkk2cc5">Discord</a>.
+                </div>
+                <div class="faqentry">
+                    <h2>Why is nothing displayed on the webpage?</h2>
+                    ElectrOsu!web relies on <a href="https://osu.sayobot.cn/home/new">SayoBot</a> to get beatmaps. If it ever happens to go down, please let me know on the Discord server.
+                    <!--此外，您可以将谱面加入收藏夹，游玩已收藏谱面不受镜像站出错影响。-->
+                </div>
+                <div class="faqentry">
+                    <h2>Can I upload a local beatmap？</h2>
+                    Soon :)
+                    <!-- 可以。您可以在“已收藏”谱面列表里找到添加本地谱面的入口。您添加的本地谱面只有您自己能够看到。 -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- attribution -->
+<!-- play icon made by https://www.flaticon.com/authors/those-icons -->
+<!-- search icon made by https://www.flaticon.com/authors/good-ware -->
