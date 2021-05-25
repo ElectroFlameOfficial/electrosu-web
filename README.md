@@ -25,5 +25,5 @@ Some media files used in ElectrOsu!web are copyrighted by [ppy](https://github.c
 - [111116](https://github.com/111116): Original source for [webosu](https://github.com/111116/webosu)
 - [cmyui](https://github.com/cmyui): Developer of the server stack ElectrOsu! uses, [gulag](https://github.com/cmyui/gulag)
 - [varkaria](https://github.com/varkaria): Developer of the frontend used for ElectrOsu!, [gulag-web](https://github.com/varkaria/gulag-web)
-- and obviously the Developers of PixiJS(https://www.pixijs.com)
+- and obviously the Developers of [PixiJS](https://www.pixijs.com)
 - ...and the [Chimu](https://chimu.moe) mirror maintainers, Y'all're doing god's work.
