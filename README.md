@@ -1,10 +1,10 @@
 # ElectrOsu!web
 
-Powered by [PixiJS](https://www.pixijs.com) and [chimu](https://chimu.moe).
+Powered by [PixiJS](https://www.pixijs.com), [ElectrOsu!](https://electrosu.tk/) and [chimu](https://chimu.moe).
 
 **(under development)**
 
-Note: This is an unofficial implementation of [Osu!](https://osu.ppy.sh) modified to work in tandem with the [gulag](https://github.com/cmyui/gulag) and [gulag-web](https://github.com/varkaria/gulag-web) server stacks for ElectrOsu!. Scoring and judgement rules can differ from that of official Osu! mainly because it's a private server LOL. Music might not be in sync with the gameplay (working on fixing that). Only standard Osu! is supported as of right now.
+Note: This is an unofficial implementation of [Osu!](https://osu.ppy.sh) modified to work in tandem with the [gulag](https://github.com/cmyui/gulag) and [gulag-web](https://github.com/varkaria/gulag-web) server stacks for ElectrOsu!; Scoring and judgement rules can differ from that of official Osu! mainly because it's a private server LOL. Music might not be in sync with the gameplay (working on fixing that). Only standard Osu! is supported as of right now.
 
 ## Hosting
 
