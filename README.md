@@ -1,32 +1,14 @@
-# osu! web
+# ElectrOsu!web
 
-A browser rhythm game where you click circles on the screen, following rhythm of the music.
-
-Powered by [PixiJS](https://www.pixijs.com), [Sayobot](https://osu.sayobot.cn).
+Powered by [PixiJS](https://www.pixijs.com), [ElectrOsu!](https://electrosu.tk/), [Sayobot](https://sayobot.cn), and [chimu](https://chimu.moe)(for fallback).
 
 **(under development)**
 
-Note: This is an unofficial implementation of [osu!](https://osu.ppy.sh). Scoring and judgement rules can differ from that of official osu!. Some music might not be perfectly syncing (still being tested). Modes other than osu! (std) are unsupported.
-
-## Screenshots
-
-web page:
-
-![webpage](screenshots/page3.jpg)
-
-game in action:
-
-![webpage](screenshots/clip3.gif)
+Note: This is an unofficial implementation of [Osu!](https://osu.ppy.sh) modified to work in tandem with the [gulag](https://github.com/cmyui/gulag) and [gulag-web](https://github.com/varkaria/gulag-web) server stacks for ElectrOsu!; Scoring and judgement rules can differ from that of official Osu! mainly because it's a private server LOL. Music might not be in sync with the gameplay (working on fixing that). Only standard Osu! is supported as of right now.
 
 ## Hosting
 
-Set up a web server with root directory located where `index.html` is in.
-
-To host a separate live score, redirect send/fetch api requests to localhost:3000/3001 respectively, and change the api url in `index.html` and `scripts/overlay/score.js` accordingly. Then run:
-
-```bash
-nohup node api.js &
-```
+it's currently a Make-What-You-Will sort of thing, but I'll *eventually* set up a Self-Hosting guide in the wiki.
 
 ## Todos
 
@@ -37,4 +19,11 @@ nohup node api.js &
 
 ## License Notes
 
-Some media files are copyrighted by [ppy](https://github.com/ppy/) and other people. Check their respective license before you use them.
+Some media files used in ElectrOsu!web are copyrighted by [ppy](https://github.com/ppy/) et al. Check their respective licenses before you use them.
+
+## Credits:
+- [111116](https://github.com/111116): Original source for [webosu](https://github.com/111116/webosu)
+- [cmyui](https://github.com/cmyui): Developer of the server stack ElectrOsu! uses, [gulag](https://github.com/cmyui/gulag)
+- [varkaria](https://github.com/varkaria): Developer of the frontend used for ElectrOsu!, [gulag-web](https://github.com/varkaria/gulag-web)
+- and obviously the Developers of [PixiJS](https://www.pixijs.com)
+- ...and the [Chimu](https://chimu.moe) mirror maintainers, Y'all're doing god's work.
