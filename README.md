@@ -1,6 +1,6 @@
 # ElectrOsu!web
 
-Powered by [PixiJS](https://www.pixijs.com), [ElectrOsu!](https://electrosu.tk/) and [chimu](https://chimu.moe).
+Powered by [PixiJS](https://www.pixijs.com), [ElectrOsu!](https://electrosu.tk/), [Sayobot](https://sayobot.cn), and [chimu](https://chimu.moe)(for fallback).
 
 **(under development)**
 
